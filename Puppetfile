@@ -94,6 +94,10 @@ mod 'nukemail',
 mod 'oracle',
   :git => 'git://github.com/ghoneycutt/puppet-module-oracledriver.git'
 
+mod 'php',
+  :git => 'https://github.com/herffjones-ssg/puppet-php.git',
+  :ref => 'hj_fork'
+
 mod 'physical',
   :git => 'https://github.com/herffjones-ssg/puppet-module-physical.git',
   :ref => 'hj_fork'
